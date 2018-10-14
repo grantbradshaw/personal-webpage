@@ -3,3 +3,4 @@ personal-webpage-env/*
 .env
 *.pyc
 __pycache__/*
+static/css/*
