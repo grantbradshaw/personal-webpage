@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 from dotenv import load_dotenv
 import os
 
@@ -9,8 +9,8 @@ app.config.from_object(os.environ['APP_SETTINGS'])
 
 
 @app.route('/')
-def hello():
-    return "Hello World!"
+def index():
+    return render_template('index.html')
 
 if __name__ == '__main__':
     app.run()
