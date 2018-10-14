@@ -1,2 +1,4 @@
 startup.md
 personal-webpage-env/*
+.env
+config.py
